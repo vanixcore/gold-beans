@@ -151,4 +151,17 @@ footer {
     padding: 40px;
     background-color: var(--primary-dark);
     color: white;
+
+}
+@media (max-width: 768px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 90%; 
+    margin-bottom: 20px;
+  }
 }
