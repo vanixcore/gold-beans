@@ -25,6 +25,7 @@ function calculateTotal(quantity) {
 function displayOrder(quantity) {
     let totalValue = calculateTotal(quantity);
     console.log("Order: " + quantity + " bags of " + coffeeProduct.name);
-    console.log("Total Price: $" + totalValue);
+    alert("Total Price: $" + totalValue);
 }
+
 
