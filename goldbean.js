@@ -27,5 +27,7 @@ function displayOrder(quantity) {
     console.log("Order: " + quantity + " bags of " + coffeeProduct.name);
     alert("Total Price: $" + totalValue);
 }
+function orderCustomAmount(){let quantity = prompt("How many bags of " + coffeeProduct.name + " would you like to order?");
+    displayOrder(asparseInt(quantity));
 
 
