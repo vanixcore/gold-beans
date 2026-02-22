@@ -11,7 +11,7 @@
             <ul>
                 <li><a href="#about">Subscription</a></li>
                 <li><a href="#projects">Our story</a></li>
-                <button class="navbtn">ORDER NOW</button>
+                <button class="navbtn" onclick="orderCustomAmount()" >ORDER NOW</button>
             </ul>
         </nav>
     </header>
@@ -47,16 +47,20 @@
     <section id="about">
         <h2>Subscription</h2>
         <p>Join our exclusive coffee club and receive a curated selection of our finest beans delivered to your doorstep every month. Each shipment includes detailed tasting notes, brewing tips, and access to our online community of coffee enthusiasts. Whether you're a seasoned barista or just starting your coffee journey, our subscription service is designed to elevate your coffee experience.</p>
-        <button class="subbtn">Subscribe Now</button>
+        <button class="subbtn" onclick="subscribeAlert()">Subscribe Now</button>
     </section>
     </div>
+    <div class="button-container">
+       <button class="btn-ghost" onclick="displayOrder(1)">Order 1 Bag</button>
+       <button class="btn-custom" onclick="orderCustomAmount()">ORDER NOW</button>
+    </div>    
+    <script src="goldbean.js"></script>
     <footer>
         <p>&copy; 2026 Gold beans.Built for the bold.</p>
-    <button onclick="displayOrder(1)">Order 1 Bag</button>
-    <button onclick="orderCustomAmount()">Order Custom Amount</button>
-    <script src="goldbean.js"></script>
+    </footer>    
 </body>
 </html>
+
 
 
 
