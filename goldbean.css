@@ -144,7 +144,7 @@ nav a:hover {
     font-size:1.0rem;
         padding:12px 26px;
         width:85% ;
-        max-width:280px;
+        max-width:260px;
         text-align:center;
         border:none;
 }
@@ -276,6 +276,7 @@ footer {
     background-color: #5d3a37;
     border-color: #5d3a37;
 }
+
 
 
 
