@@ -159,8 +159,28 @@ footer {
     align-items: center;
   }
 
-  .feature-card {
+  .feature-item {
     width: 90%; 
     margin-bottom: 20px; 
   }
 }
+.btn-ghost {
+    background-color: transparent; 
+    border: 2px solid #d4af37;
+    color: #d4af37;
+}
+.btn-ghost:hover {
+    background-color: #d4af37;
+    color: white; 
+}
+.btn-custom {
+    background-color: #4a2c2a;
+    color: white;
+    border: 2px solid #4a2c2a; 
+}
+.btn-custom:hover {
+    background-color: #5d3a37;
+    border-color: #5d3a37;
+}
+
+
