@@ -146,7 +146,7 @@ nav a:hover {
         width:85% ;
         max-width:280px;
         text-align:center;
-        border-radius:8px
+        border-radius:8px;
 }
 
 footer {
@@ -254,7 +254,7 @@ footer {
         width:85% ;
         max-width:300px;
         text-align:center;
-        border-radius:8px
+        border-radius:8px;
 }
 .btn-ghost:hover {
     background-color: #d4af37;
@@ -270,12 +270,13 @@ footer {
         width:85% ;
         max-width:300px;
         text-align:center;
-        border-radius:8px
+        border-radius:8px;
 }
 .btn-custom:hover {
     background-color: #5d3a37;
     border-color: #5d3a37;
 }
+
 
 
 
