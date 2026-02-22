@@ -29,7 +29,8 @@ function displayOrder(quantity) {
 }
 function orderCustomAmount(){let quantity = prompt("How many bags of " + coffeeProduct.name + " would you like to order?");
     displayOrder(quantity);}
-function subscribeAlert(){alert("Thanks for joining the Gold Beans Club! Check your email for a 10% discount.";}
+function subscribeAlert(){alert("Thanks for joining the Gold Beans Club! Check your email for a 10% discount.");}
+
 
 
 
