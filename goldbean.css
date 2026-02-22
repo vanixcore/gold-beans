@@ -190,7 +190,7 @@ footer {
         padding: 8px 15px;
         font-size: 0.8rem;
         flex-basis: 100%;     
-        text-align:"center";    
+        
     }
 
     .hero {
@@ -269,6 +269,7 @@ footer {
     background-color: #5d3a37;
     border-color: #5d3a37;
 }
+
 
 
 
