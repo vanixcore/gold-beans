@@ -152,7 +152,7 @@ footer {
     background-color: var(--primary-dark);
     color: white;
 }
-@media (max-width: 775px) {
+@media (max-width: 785px) {
     .order {
         position: sticky !important;
         top: 0;
@@ -182,7 +182,7 @@ footer {
         display: inline-block;
     }
     .order ul li a {
-        font-size: 0.88rem;
+        font-size: 0.90rem;
         margin-left: 15px; 
         color: white;
     }
@@ -190,7 +190,7 @@ footer {
         width: auto !important;
         margin-top: 5px;
         padding: 6px 15px;
-        font-size: 0.83rem;
+        font-size: 0.85rem;
     }
     .hero {
         flex-direction: column;
@@ -245,6 +245,7 @@ footer {
     background-color: #5d3a37;
     border-color: #5d3a37;
 }
+
 
 
 
