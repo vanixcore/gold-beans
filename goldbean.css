@@ -159,92 +159,64 @@ footer {
         z-index: 1000;
         display: flex !important;
         flex-direction: row !important; 
-        flex-wrap: wrap;               
+        flex-wrap: wrap; 
         justify-content: space-between; 
-        align-items: center;
+        align-items: flex-start;
         padding: 15px 5% !important;
         background-color: #2b1d16 !important;
     }
     .order img {
         height: 80px !important; 
         width: auto;
-        flex-shrink: 0;
-    }
-   .order ul {
-        display: flex;
-        flex-direction: row; 
-        gap: 20px;                     
-        margin: 0;
-        padding: 0;
-        list-style: none;
     }
 
+    .order ul {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end; 
+        gap: 8px; 
+        margin: 0;
+        padding: 0;
+    }
+    .order ul li {
+        display: inline-block;
+    }
     .order ul li a {
         font-size: 0.85rem;
+        margin-left: 15px; 
         color: white;
     }
     .navbtn {
         width: auto !important;
-        margin-top: 10px;
-        margin-left: auto;        
-        padding: 8px 15px;
+        margin-top: 5px;
+        padding: 6px 15px;
         font-size: 0.8rem;
-        flex-basis: 100%;     
-        text-align:center;
     }
-
     .hero {
         flex-direction: column;
         text-align: center;
         padding: 40px 5% !important;
     }
-
-    .coffee img {
-        max-width: 100%; 
-        height: auto;
-    }
-
-    .features {
+    .cf, .features {
         display: flex !important;
         flex-direction: column !important;
         align-items: center;
         padding: 20px 5% !important;
     }
 
-    .feature-item {
-        width: 100% !important;
-        margin-bottom: 20px;
-    }
-
-    .cf {
-        display: flex !important;
-        flex-direction: column !important; 
-        padding: 20px 5% !important;
-    }
-
-    #projects, #about {
+    #projects, #about, .feature-item {
         width: 100% !important;
         text-align: center;
         margin-bottom: 30px;
     }
-
-    h1 { font-size: 1.8rem !important; }
-    h2 { font-size: 1.5rem !important; }
-    p { line-height: 1.6; }
-
     .button-container {
         display: flex;
-        flex-direction: column; 
-        align-items: center;
+        flex-direction: column;
         gap: 15px;
-        padding: 40px 0;
-    }
-
-    .btn-ghost, .btn-custom {
-        width: 85% !important;
+        align-items: center;
+        padding-bottom: 40px;
     }
 }
-
 .button-container{
     display:flex;
     justify-content:center;
@@ -269,6 +241,7 @@ footer {
     background-color: #5d3a37;
     border-color: #5d3a37;
 }
+
 
 
 
